@@ -45,7 +45,6 @@ fun main() {
     println("\n")
     println("Conteúdo Educacional (${formacao1.nome}): \n${formacao1.conteudos.joinToString("\n") { "${it.nome} (${it.duracao}min)" }}")
 
-	
 	println("\n")
     println("Inscritos para a formação ${formacao2.nome} (nível ${formacao2.nivel}): \n${formacao2.inscritos.joinToString("\n") { "${it.id} - ${it.nome}" }}")
     println("\n")
